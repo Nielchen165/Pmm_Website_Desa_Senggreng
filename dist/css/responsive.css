@@ -1,0 +1,203 @@
+@media screen and (min-width: 1400px) {
+    .about .box-about p {
+        font-size: 28px;
+    }    
+}
+
+@media screen and (max-width: 990px) {
+    .navigation .box-navigation .box:nth-child(2) {
+        display: flex;
+        position: absolute;
+        top: 50px;
+        right: 0px;
+        background-color: rgb(21, 0, 143);
+        width: 250px;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .navigation .box-navigation .menu-navigation.menu-active {
+        display: block;
+        top: 70px;
+    }
+
+    .navigation .box-navigation .box:nth-child(2) ul {
+        flex-direction: column;
+    }
+
+    .navigation .box-navigation .box:nth-child(2) ul li {
+        padding: 10px 0;
+    }    
+
+    .navigation .box-navigation .box:nth-child(2) ul li a {
+        color: white;
+    }
+
+    .navigation .box-navigation .box:nth-child(3) {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation .box-navigation .box:nth-child(3) i {
+        font-size: 28px;
+    }
+
+    header .hero h1 {
+        font-size: 32px;
+    }
+
+    .about .box-about p {
+        font-size: 22px;
+    }
+
+    .about .box-about .box:nth-child(2) {
+        flex-direction: column;
+    }
+
+    .about .box-about .box:nth-child(2) .split {
+        width: 100%;
+    }
+
+    .about .box-about .box:nth-child(2) .split:nth-child(2) iframe {
+        border: solid 0px;
+        padding: 25px;
+    }
+
+    .content .box .title span {
+        font-size: 32px;
+    }
+
+    footer .footer-content .left-footer h1 {
+        font-size: 17px;
+    }
+
+    footer .footer-content .right-footer h1 {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .more-info .box-info .box:nth-child(2) .cards {
+        justify-content: left;
+    }
+
+    .more-info .box-info .box:nth-child(2) .cards_item {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .more-info .box-info .box:nth-child(2) .cards {
+        justify-content: center;
+    }
+
+    .more-info .box-info .box:nth-child(2) .cards_item {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header .hero h1 {
+        font-size: 26px;
+    }
+
+    .about .box-about .box {
+        padding: 0 20px;
+    }
+
+    .about .box-about p {
+        font-size: 20px;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+    }
+
+    footer .footer-content .left-footer h1 {
+        font-size: 16px;
+    }
+
+    footer .footer-content .right-footer h1 {
+        font-size: 16px;
+    }
+
+    footer .footer-content .left-footer {
+        width: 100%;
+        text-align: left;
+    }
+
+    footer .footer-content .right-footer {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .content .box p {
+        font-size: 14px;
+    }
+
+    .content .box h1 {
+        font-size: 24px;
+    }
+
+    .content .box ol li {
+        font-size: 14px;
+    }
+
+    .content .box .title span {
+        font-size: 22px;
+        border-bottom: solid 2px #0a2647;
+    }
+
+    .content .box-artikel .image-artikel img {
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    header .hero h1 {
+        font-size: 20px;
+    }
+
+    .navigation .box-navigation .box:nth-child(1) a {
+        font-size: 24px;
+    }
+
+    .about .box-about .box.box:nth-child(1) span {
+        font-size: 30px;
+    }
+
+    .about .box-about p {
+        font-size: 18px;
+    }
+
+    .content .box-artikel .image-artikel img {
+        height: 200px;
+    }
+
+    .content .box-artikel p {
+        font-size: 14px;
+    }
+
+    .content .box:nth-child(2) .misi ol {
+        padding: 0 20px;
+    }
+
+    .content .box:nth-child(2) .misi ol li {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .about .box-about .box p {
+        font-size: 14px;
+    }
+
+    footer .footer-content .left-footer h1 {
+        font-size: 12px;
+    }
+
+    footer .footer-content .right-footer h1 {
+        font-size: 12px;
+    }
+}
